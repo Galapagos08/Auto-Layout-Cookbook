@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70B44891D85F3B80031099E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B44881D85F3B80031099E /* Assets.xcassets */; };
+		F70B448B1D86091E0031099E /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B448A1D86091E0031099E /* DynamicViewController.swift */; };
 		F71244791D85F28000D5399C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71244781D85F28000D5399C /* AppDelegate.swift */; };
 		F712447B1D85F28000D5399C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712447A1D85F28000D5399C /* ViewController.swift */; };
 		F712447E1D85F28000D5399C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F712447C1D85F28000D5399C /* Main.storyboard */; };
-		F71244801D85F28000D5399C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F712447F1D85F28000D5399C /* Assets.xcassets */; };
 		F71244831D85F28000D5399C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71244811D85F28000D5399C /* LaunchScreen.storyboard */; };
 		F712448E1D85F28000D5399C /* Auto_Layout_CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712448D1D85F28000D5399C /* Auto_Layout_CookbookTests.swift */; };
 		F71244991D85F28000D5399C /* Auto_Layout_CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71244981D85F28000D5399C /* Auto_Layout_CookbookUITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F70B44881D85F3B80031099E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70B448A1D86091E0031099E /* DynamicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
 		F71244751D85F28000D5399C /* Auto Layout Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Cookbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71244781D85F28000D5399C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F712447A1D85F28000D5399C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F712447D1D85F28000D5399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F712447F1D85F28000D5399C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71244821D85F28000D5399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71244841D85F28000D5399C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F71244891D85F28000D5399C /* Auto Layout CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout CookbookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +102,8 @@
 				F71244781D85F28000D5399C /* AppDelegate.swift */,
 				F712447A1D85F28000D5399C /* ViewController.swift */,
 				F712447C1D85F28000D5399C /* Main.storyboard */,
-				F712447F1D85F28000D5399C /* Assets.xcassets */,
+				F70B448A1D86091E0031099E /* DynamicViewController.swift */,
+				F70B44881D85F3B80031099E /* Assets.xcassets */,
 				F71244811D85F28000D5399C /* LaunchScreen.storyboard */,
 				F71244841D85F28000D5399C /* Info.plist */,
 			);
@@ -236,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71244831D85F28000D5399C /* LaunchScreen.storyboard in Resources */,
-				F71244801D85F28000D5399C /* Assets.xcassets in Resources */,
+				F70B44891D85F3B80031099E /* Assets.xcassets in Resources */,
 				F712447E1D85F28000D5399C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70B448B1D86091E0031099E /* DynamicViewController.swift in Sources */,
 				F712447B1D85F28000D5399C /* ViewController.swift in Sources */,
 				F71244791D85F28000D5399C /* AppDelegate.swift in Sources */,
 			);
@@ -512,6 +516,7 @@
 				F712449F1D85F28000D5399C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71244A01D85F28000D5399C /* Build configuration list for PBXNativeTarget "Auto Layout CookbookTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				F71244A21D85F28000D5399C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F71244A31D85F28000D5399C /* Build configuration list for PBXNativeTarget "Auto Layout CookbookUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				F71244A51D85F28000D5399C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
